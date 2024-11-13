@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class AirVehicle {
+public abstract sealed class AirVehicle extends Vehicle permits Airplane {
+    public AirVehicle(String name, Engine engine) {
+        super(name, engine);
+    }
 }

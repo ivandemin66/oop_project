@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
 public interface Engine {
+    FuelType getFuelType();
+    int getPower();
 }

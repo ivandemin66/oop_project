@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
 public enum FuelType {
+    PETROL, DIESEL, ELECTRIC, JET_FUEL
 }

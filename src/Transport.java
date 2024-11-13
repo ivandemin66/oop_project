@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
 public interface Transport {
+    void move();
+    void stop();
+    String getInfo();
 }
